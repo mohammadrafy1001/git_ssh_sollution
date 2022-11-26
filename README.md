@@ -31,6 +31,8 @@ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_ed25519
 or ssh-add ~/.ssh/id_rsa
 
+after running this command you can run echo $
+
 ________________________________________________________________
 
 4. adding a key to your github :
@@ -44,3 +46,12 @@ ________________________________________________________________
 
 5 .testing the ssh connection :
 $ ssh -vT git@github.com
+
+__________________________________________________________________
+
+list all the keys added to your ssh agent -
+
+eval "$(ssh-agent -s)"
+ssh-add -l
+
+
