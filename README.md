@@ -43,4 +43,4 @@ ________________________________________________________________
 
 
 5 .testing the ssh connection :
-$ ssh -T git@github.com
+$ ssh -vT git@github.com
